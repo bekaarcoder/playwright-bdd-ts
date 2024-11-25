@@ -1,0 +1,415 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "webdriveruniversity.com---contact-us-page;valid-contact-us-form",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "Valid Contact Us Form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 865587625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to webdriveruniversity homepage",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2451375250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68669625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I switch to a new browser tab",
+            "match": {
+              "location": "src/step-definitions/Base_Steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315051749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I type a first name John and a last name Doe",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211191749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I type an email address 'johndoe@email.com' and a comment 'Hello John'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12668208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 501670458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should be presented with header text 'Thank You for your Message!'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 820493000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77409125
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity.com---contact-us-page;valid-contact-us-form",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Valid Contact Us Form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 953406542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to webdriveruniversity homepage",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2553335749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70448000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I switch to a new browser tab",
+            "match": {
+              "location": "src/step-definitions/Base_Steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314111750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I type a first name Jane and a last name Doe",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209505709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I type an email address 'janedoe@email.com' and a comment 'Hello Jane Doe'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14192707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522129375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should be presented with header text 'Thank You for your Message!'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805780458
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99465165
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity.com---contact-us-page;valid-contact-us-form",
+        "keyword": "Scenario Outline",
+        "line": 53,
+        "name": "Valid Contact Us Form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 866764000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to webdriveruniversity homepage",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2364622959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "src/step-definitions/Homepage_Steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60738250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I switch to a new browser tab",
+            "match": {
+              "location": "src/step-definitions/Base_Steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231553292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I type a first name Max and a last name Doe",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264308084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I type an email address 'maxdoe' and a comment 'Hello Max Doe'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20313042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283653374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should be presented with header text 'Invalid email address'",
+            "match": {
+              "location": "src/step-definitions/ContactUs_Steps.ts:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25611249
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67805374
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webdriveruniversity.com---contact-us-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Webdriveruniversity.com - Contact Us Page",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@contact-us",
+        "line": 1
+      }
+    ],
+    "uri": "src/features/Contact_Us.feature"
+  }
+]
