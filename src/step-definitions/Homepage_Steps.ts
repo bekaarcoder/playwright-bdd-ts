@@ -9,6 +9,8 @@ Given(
     'I navigate to webdriveruniversity homepage',
     async function (this: CucumberWorld) {
         // await pageFixture.page.goto(url);
+        console.log('URL: ', url);
+        this.setUrl(url);
         await this.homePage.navigate(url);
         logger.info(`Accessing URL: ${url}`);
         logger.info(`Page Title: ${await pageFixture.page.title()}`);
