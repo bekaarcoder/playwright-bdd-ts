@@ -17,6 +17,7 @@ export class BasePage {
     }
 
     public async navigate(url: string): Promise<void> {
+        console.log('URL BASEPAGE: ', url);
         await this.page.goto(url);
     }
 
