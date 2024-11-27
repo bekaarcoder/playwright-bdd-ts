@@ -25,3 +25,4 @@ Feature: Webdriveruniversity.com - Login portal Page
     Examples:
       | username  | password     | message              |
       | webdriver | webdriver123 | validation succeeded |
+      | webdriver | webdriver123 | validation failed    |
