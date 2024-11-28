@@ -1,14 +1,16 @@
 pipeline {
-    agent {
-        docker  {
-            image 'mcr.microsoft.com/playwright:v1.49.0-noble'
-        }
-    }
+    agent any
+
     stages {
-        stage('e2e-tests') {
+        stage('Build Image') {
             steps {
-                sh 'npm ci'
-                sh 'npm run cucumber login'
+                sh "docker build -t=blitzstriker/playwright ."
+            }
+        }
+
+        stage('Push Image') {
+            steps {
+                sh "docker push blitzstriker/playwright"
             }
         }
     }
