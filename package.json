@@ -4,7 +4,7 @@
     "main": "index.js",
     "scripts": {
         "cucumber:ts": "cucumber-js src/features/*.feature --require-module ts-node/register --require src/step-definitions/**/**/*.ts --require src/utils/cucumber-timeout.ts",
-        "precucumber": "rimraf reports allure-results allure-report && mkdir reports",
+        "precucumber": "rimraf reports/* allure-results allure-report && mkdir -p reports",
         "cucumber": "npx cucumber-js && ts-node ./src/index.ts"
     },
     "keywords": [],

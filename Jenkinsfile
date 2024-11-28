@@ -25,7 +25,6 @@ pipeline {
         always {
             sh "docker logout"
             sh "docker system prune -f"
-            archiveArtifacts artifacts: 'reports/*.html, reports/*.json', followSymlinks: false
         }
     }
 }
