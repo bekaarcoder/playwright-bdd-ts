@@ -7,3 +7,9 @@ let page: Page; // Represents a single web page within a context
 "allure:serve": "allure open ./allure-report"
 
 --format allure-cucumberjs/reporter \
+
+### Login to docker in jenkins pipeline
+
+Put below under Steps in Jenkinsfile
+
+> sh 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
