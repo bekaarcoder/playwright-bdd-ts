@@ -10,4 +10,5 @@ RUN apt-get update && \
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
 # Running Tests
-ENTRYPOINT [ "npm", "run", "cucumber", "login" ]
+# ENTRYPOINT [ "npm", "run", "cucumber", "smoke" ]
+ENTRYPOINT ["sh", "-c", "npm run cucumber ${TEST_TARGET}"]
